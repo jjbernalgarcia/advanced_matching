@@ -8,7 +8,7 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '{{meta_pixel_id}}',{em:{{hashed_email}},fn:{{name}}});
+fbq('init', '{{meta_pixel_id}}',{em:{{hashed_email}},fn:{{name}}, ph:{{phone}}});
 fbq('track', 'PageView',{},{eventID:'{{event_id}}'});
 </script>
 <noscript><img height="1" width="1" style="display:none"
